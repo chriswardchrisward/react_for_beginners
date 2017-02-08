@@ -3,7 +3,7 @@ import { render } from 'react-dom'; //We do this to render HTML if we were writi
 import './css/style.css'; //This takes everything in style.css and webpack compiles it all
 
 
-import StorePicker from './components/StorePicker'; 
+// import StorePicker from './components/StorePicker'; 
 import App from './components/App'
 
 render(<App/>, document.querySelector('#main'));
